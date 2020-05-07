@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Verdana, Arial, 'sans-serif';
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    color: black;
+}
+
+table .collapse.in {
+    display:table-row;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 86px 0;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 24px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#nav-title {
+    float: left;
+    font-size: 220%;
+    line-height: middle;
+    line-height: 40px;
+    color: white;
+}
+
+#nav-title2 {
+    line-height: middle;
+    color: white;
+}
+
+.navbar {
+    background-color:#282828;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+#home-section {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.mat-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px;
+    width: 40%;
+    transition: all .4s ease-in-out;
+}
+
+.mat-container:hover {
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1,1.1);
+}
